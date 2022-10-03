@@ -1,7 +1,9 @@
 package lambda;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 public class JavaLambdaStream {
 
@@ -25,7 +27,13 @@ public class JavaLambdaStream {
                                 .limit(3)
                                 .count();
 
-        System.out.println(count);
+        System.out.println("\n" + count);
+
+        Optional<Integer> min = numbers.stream()
+                                .filter(e -> e % 2 == 0)
+                                .min(Comparator.naturalOrder());
+
+        System.out.println("\n" + min.get());
     }
 
 
