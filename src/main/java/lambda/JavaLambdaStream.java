@@ -34,6 +34,12 @@ public class JavaLambdaStream {
                                 .min(Comparator.naturalOrder());
 
         System.out.println("\n" + min.get());
+
+        Optional<Integer> max = numbers.stream()
+                .filter(e -> e % 2 == 0)
+                .max(Comparator.naturalOrder());
+
+        System.out.println("\n" + max.get());
     }
 
 
