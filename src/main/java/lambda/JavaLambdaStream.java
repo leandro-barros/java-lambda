@@ -14,10 +14,11 @@ public class JavaLambdaStream {
         // Strem: Fluxo de dados
         numbers.stream()
                 .skip(2) // Operação intermediária
-                .limit(3)
-                .distinct()
+                .limit(3) // Operação intermediária
+                .distinct() // Operação intermediária
+                .map(e -> e * 2) // Operação intermediária
 //                .filter(i -> i % 2 == 0)
-                .forEach(e -> System.out.println(e));
+                .forEach(e -> System.out.println(e)); // Operação final
 
     }
 
