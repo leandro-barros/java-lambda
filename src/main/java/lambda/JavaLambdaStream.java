@@ -11,7 +11,7 @@ public class JavaLambdaStream {
 
 //        numbers.stream().forEach(i -> System.out.println(i));
 
-        // Strem: Fluxo de dados
+        // Strem: Fluxo de dados (Operações intermediárias)
         numbers.stream()
                 .skip(2) // Operação intermediária
                 .limit(3) // Operação intermediária
@@ -20,6 +20,12 @@ public class JavaLambdaStream {
 //                .filter(i -> i % 2 == 0)
                 .forEach(e -> System.out.println(e)); // Operação final
 
+
+        long count = numbers.stream()
+                                .limit(3)
+                                .count();
+
+        System.out.println(count);
     }
 
 
