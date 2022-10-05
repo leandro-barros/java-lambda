@@ -1,16 +1,13 @@
 package lambda;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class JavaLambdaStream {
 
 
     public static void main(String[] args) {
-        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 9);
+        List<Integer> numbers = Arrays.asList(1, 5 , 8, 2, 9, 4, 1, 6, 6, 7, 9, 9);
 
 //        numbers.stream().forEach(i -> System.out.println(i));
 
@@ -53,7 +50,12 @@ public class JavaLambdaStream {
                 .map(e -> e * 3)
                 .collect(Collectors.toList());
 
-        System.out.println("\n" + newList);
+        System.out.println("\n" + newList + "\n");
+
+        Map<Boolean, List<Integer>> group = numbers.stream()
+                .collect(Collectors.groupingBy(e -> e % 2 == 0));
+
+        System.out.println("Agrupamento por números pares e ímpars: " + group);
     }
 
 
