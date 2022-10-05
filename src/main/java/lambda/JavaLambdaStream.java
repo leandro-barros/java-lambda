@@ -23,7 +23,7 @@ public class JavaLambdaStream {
 //                .filter(i -> i % 2 == 0)
                 .forEach(e -> System.out.println(e)); // Operação final
 
-// Métodos com operações finais
+        // Métodos com operações finais
 
         // Count
         long count = numbers.stream()
