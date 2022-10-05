@@ -56,6 +56,11 @@ public class JavaLambdaStream {
                 .collect(Collectors.groupingBy(e -> e % 2 == 0));
 
         System.out.println("Agrupamento por números pares e ímpars: " + group);
+
+        Map<Integer, List<Integer>> groupDivisionBy3 = numbers.stream()
+                .collect(Collectors.groupingBy(e -> e % 3));
+
+        System.out.print("\nAgrupamento pelo resto divisão por 3: " + groupDivisionBy3);
     }
 
 
