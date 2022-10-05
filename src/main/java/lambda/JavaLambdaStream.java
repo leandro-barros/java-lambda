@@ -61,6 +61,12 @@ public class JavaLambdaStream {
                 .collect(Collectors.groupingBy(e -> e % 3));
 
         System.out.print("\nAgrupamento pelo resto divisão por 3: " + groupDivisionBy3);
+
+        String join = numbers.stream()
+                .map(e -> String.valueOf(e))
+                .collect(Collectors.joining(";"));
+
+        System.out.print("\n\nString concatenada: " + join);
     }
 
 
