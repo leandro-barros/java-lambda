@@ -7,9 +7,12 @@ public class JavaLambdaStream {
 
 
     public static void main(String[] args) {
+
         List<Integer> numbers = Arrays.asList(1, 5 , 8, 2, 9, 4, 1, 6, 6, 7, 9, 9);
 
-//        numbers.stream().forEach(i -> System.out.println(i));
+        numbers.stream().forEach(i -> System.out.print(i));
+
+        System.out.println("\n\n");
 
         // Strem: Fluxo de dados (Operações intermediárias)
         numbers.stream()
@@ -20,7 +23,7 @@ public class JavaLambdaStream {
 //                .filter(i -> i % 2 == 0)
                 .forEach(e -> System.out.println(e)); // Operação final
 
-        // Métodos com operações finais
+        // -------------------- Métodos com operações finais --------------------
 
         // Count
         long count = numbers.stream()
@@ -67,6 +70,7 @@ public class JavaLambdaStream {
                 .collect(Collectors.joining(";"));
 
         System.out.print("\n\nString concatenada: " + join);
+
     }
 
 
