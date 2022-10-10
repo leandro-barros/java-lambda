@@ -1,6 +1,7 @@
 package optional.using;
 
 import java.util.Optional;
+import java.util.stream.Stream;
 
 public class OptionalElseThrow {
 
@@ -10,6 +11,10 @@ public class OptionalElseThrow {
         Integer numberConverting = convertNumber(number).orElseThrow(() -> {throw new RuntimeException("dgf");});
 
         System.out.println(numberConverting);
+
+        Stream.of(3, 5, 9)
+                .findFirst()
+                .ifPresent(e -> System.out.println(e));
     }
 
     public static Optional<Integer> convertNumber(String value) {
