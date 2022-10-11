@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Optional;
 
 // O reduce precisa ser associativo, ou seja, resolver em pequenos pedaços sempre irá dá o mesmo valor
-public class ReduceStrean {
+public class ReduceStream {
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,2, 3, 4, 5, 6);
