@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+// O reduce precisa ser associativo, ou seja, resolver em pequenos pedaços sempre irá dá o mesmo valor
 public class ReduceStrean {
 
     public static void main(String[] args) {
