@@ -3,7 +3,7 @@ package reduce;
 import java.util.Arrays;
 import java.util.List;
 
-public class ReduceSumCombination {
+public class ReduceSumFunctionCombination {
 
     public static void main(String[] args) {
 
