@@ -12,7 +12,7 @@ public class CollectStreamJoining {
 
         String collect = list.stream()
                 .map(n -> n.toString())
-                .collect(Collectors.joining());
+                .collect(Collectors.joining(";"));// Diferente do joining do reduce ele utiliza o StringBuider que é mais performatico
 
         System.out.println(collect);
 
