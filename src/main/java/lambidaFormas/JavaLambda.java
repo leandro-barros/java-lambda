@@ -13,6 +13,8 @@ public class JavaLambda {
                 .filter((int n) -> n % 2 == 0)
                 .reduce((int n1, int n2) -> n1 + n2)
                 .ifPresent(System.out::println);
+
+        Runnable runnable = () -> System.out.println("My Runnable");
     }
 
 }
