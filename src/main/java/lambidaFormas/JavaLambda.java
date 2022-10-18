@@ -19,7 +19,10 @@ public class JavaLambda {
         System.out.println("\n");
 
         IntStream.range(0, 5)
-                .filter((int n) -> {return n % 2 == 0;})
+                .filter((int n) -> {
+                    System.out.println("Teste return");
+                    return n % 2 == 0;
+                })
                 .forEach(System.out::println);
 
     }
