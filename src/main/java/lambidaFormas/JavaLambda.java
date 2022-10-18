@@ -15,6 +15,13 @@ public class JavaLambda {
                 .ifPresent(System.out::println);
 
         Runnable runnable = () -> System.out.println("My Runnable");
+
+        System.out.println("\n");
+
+        IntStream.range(0, 5)
+                .filter((int n) -> {return n % 2 == 0;})
+                .forEach(System.out::println);
+
     }
 
 }
