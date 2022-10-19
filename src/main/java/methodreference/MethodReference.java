@@ -9,6 +9,9 @@ public class MethodReference {
 
         List<Integer> asList = Arrays.asList(1, 2, 3, 4, 5);
 
+        asList.stream()
+                .forEach(System.out::println);
+
     }
 
 }
