@@ -12,6 +12,15 @@ public class MethodReference {
         asList.stream()
                 .forEach(System.out::println);
 
+        System.out.println("\n");
+
+        asList.stream()
+                .map(MethodReference::multplicForTwo) // Method reference with static
+                .forEach(System.out::println);
+    }
+
+    public static Integer multplicForTwo(Integer i) {
+        return i * 2;
     }
 
 }
