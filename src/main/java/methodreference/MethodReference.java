@@ -18,10 +18,17 @@ public class MethodReference {
         asList.stream()
                 .map(MethodReference::multplicForTwo) // Method reference with static
                 .forEach(System.out::println);
+
         System.out.println("\n- constructors");
 
         asList.stream()
                 .map(BigDecimal::new) // Method reference with constructors
+                .forEach(System.out::println);
+
+        System.out.println("\n- Várias instâncias");
+
+        asList.stream()
+                .map(Integer::doubleValue)
                 .forEach(System.out::println);
     }
 
