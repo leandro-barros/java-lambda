@@ -1,5 +1,6 @@
 package methodreference;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
@@ -16,6 +17,11 @@ public class MethodReference {
 
         asList.stream()
                 .map(MethodReference::multplicForTwo) // Method reference with static
+                .forEach(System.out::println);
+        System.out.println("\n- constructors");
+
+        asList.stream()
+                .map(BigDecimal::new) // Method reference with constructors
                 .forEach(System.out::println);
     }
 
