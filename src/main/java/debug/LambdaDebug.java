@@ -30,6 +30,12 @@ public class LambdaDebug {
                 .map(n -> builder(n))
                 .forEach(System.out::println);
 
+        asList.stream()
+                .peek(n -> System.out.println("Entrou")) // Feito para logs ou debugs
+                .filter(n -> n % 2 == 0)
+                .peek(n -> System.out.println("É par"))
+                .forEach(System.out::println);
+
     }
 
     private static StringBuilder builder(Integer n) {
