@@ -24,6 +24,20 @@ public class LambdaDebug {
                 })
                 .forEach(System.out::println);
 
+        System.out.println("\nDebug por método");
+
+        asList.stream()
+                .map(n -> builder(n))
+                .forEach(System.out::println);
+
+    }
+
+    private static StringBuilder builder(Integer n) {
+        StringBuilder builder = new StringBuilder();
+        builder.append(n);
+        builder.append("s");
+        builder.append("a");
+        return builder;
     }
 
 }
