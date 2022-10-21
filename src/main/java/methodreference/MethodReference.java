@@ -30,6 +30,13 @@ public class MethodReference {
         asList.stream()
                 .map(Integer::doubleValue)
                 .forEach(System.out::println);
+
+        System.out.println("\n- Única instância");
+        BigDecimal two = new BigDecimal("2");
+        asList.stream()
+                .map(BigDecimal::new)
+                .map(two::multiply)
+                .forEach(System.out::println);
     }
 
     public static Integer multplicForTwo(Integer i) {
