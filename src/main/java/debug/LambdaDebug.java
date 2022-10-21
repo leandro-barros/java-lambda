@@ -12,6 +12,18 @@ public class LambdaDebug {
                 .map(n -> new StringBuilder().append(n).append("s").append("a"))
                 .forEach(System.out::println);
 
+        System.out.println("\nDebug por bloco");
+
+        asList.stream()
+                .map(n -> {
+                     StringBuilder builder = new StringBuilder();
+                     builder.append(n);
+                     builder.append("s");
+                     builder.append("a");
+                     return builder;
+                })
+                .forEach(System.out::println);
+
     }
 
 }
