@@ -32,6 +32,7 @@ public class MethodReference {
                 .forEach(System.out::println);
 
         System.out.println("\n- Única instância");
+
         BigDecimal two = new BigDecimal("2");
         asList.stream()
                 .map(BigDecimal::new)
