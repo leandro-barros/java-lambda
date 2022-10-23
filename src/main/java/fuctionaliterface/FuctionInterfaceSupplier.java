@@ -10,7 +10,7 @@ public class FuctionInterfaceSupplier {
         List<Integer> list = Arrays.asList(1,2, 3, 4, 5, 6);
 
         Stream.generate(() -> new java.util.Random().nextInt())
-                .forEach(System.out::println);
+                .forEach(System.out::println); // O ForEach é um examplo de Consumer que recebe um valor e faz algo e não retorna nada
     }
 
 }
