@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 // É a mais genérica de todas, recebe um valor e retorna este valor
+// BiFunction recebe dois valores e retorna um valor
 public class FuctionInterfaceFunction {
 
     public static void main(String[] args) {
