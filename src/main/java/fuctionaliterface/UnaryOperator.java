@@ -3,6 +3,7 @@ package fuctionaliterface;
 import java.util.Arrays;
 import java.util.List;
 
+// O UnaryOperator recebe um valor e retorna um valor do mesmo tipo
 public class UnaryOperator {
 
     public static void main(String[] args) {
