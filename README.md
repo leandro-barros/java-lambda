@@ -1,4 +1,4 @@
-# java-lambda
+# JavaLambda
 
 <h4 align="center"> 
 	🚧  JavaLambda ♻️ Em construção 🚀 🚧
