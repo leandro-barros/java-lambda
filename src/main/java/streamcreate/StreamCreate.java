@@ -2,6 +2,7 @@ package streamcreate;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamCreate {
@@ -15,7 +16,13 @@ public class StreamCreate {
         Integer[] array = new Integer[] {1, 2, 3};
         Arrays.stream(array).forEach(System.out::println);
 
+
+        // Stream.of()
         Stream.of("Value one", "Value two", "Value three")
+                .forEach(System.out::println);
+
+        // IntStream.range()
+        IntStream.range(0, 5)
                 .forEach(System.out::println);
 
     }
