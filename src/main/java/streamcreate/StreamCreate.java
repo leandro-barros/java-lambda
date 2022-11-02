@@ -25,6 +25,13 @@ public class StreamCreate {
         IntStream.range(0, 5)
                 .forEach(System.out::println);
 
+        System.out.println("\n");
+
+        // Stream.interate
+        Stream.iterate(5, n -> n * 2)
+                .limit(10)
+                .forEach(System.out::println);
+
     }
 
 }
