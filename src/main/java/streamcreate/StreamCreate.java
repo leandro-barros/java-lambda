@@ -39,8 +39,9 @@ public class StreamCreate {
         // BufferedReader - lines
         File file = new File("");
         FileReader fileReader = new FileReader(file);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
-        bufferedReader.lines().forEach(System.out::println);
+        try(BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+            bufferedReader.lines().forEach(System.out::println);
+        }
 
     }
 
