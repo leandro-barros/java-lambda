@@ -12,4 +12,6 @@
  <a href="#-licença">Licença</a>
 </p>
 
+## 💻 Sobre o projeto
+
 ## 🚀 Executar o projeto
