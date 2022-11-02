@@ -3,6 +3,9 @@ package streamcreate;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
@@ -34,6 +37,11 @@ public class StreamCreate {
         Stream.iterate(5, n -> n * 2)
                 .limit(10)
                 .forEach(System.out::println);
+
+        System.out.println("\n");
+        // Files
+        Path path = Paths.get("");
+        Files.list(path).forEach(System.out::println);
 
         System.out.println("\n");
         // BufferedReader - lines
