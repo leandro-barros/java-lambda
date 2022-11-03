@@ -8,6 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -42,6 +43,12 @@ public class StreamCreate {
         // Files
         Path path = Paths.get("");
         Files.list(path).forEach(System.out::println);
+
+        System.out.println("\n");
+        // Radom
+        new Random().ints()
+                .limit(10)
+                .forEach(System.out::println);
 
         System.out.println("\n");
         // BufferedReader - lines
