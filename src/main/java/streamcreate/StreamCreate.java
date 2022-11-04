@@ -9,6 +9,7 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+import java.util.regex.Pattern;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -49,6 +50,11 @@ public class StreamCreate {
         new Random().ints()
                 .limit(10)
                 .forEach(System.out::println);
+
+        System.out.println("\n");
+        // Pattern
+
+        Pattern pattern = Pattern.compile("\\w");
 
         System.out.println("\n");
         // BufferedReader - lines
