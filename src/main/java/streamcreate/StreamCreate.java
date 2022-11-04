@@ -54,7 +54,9 @@ public class StreamCreate {
         System.out.println("\n");
         // Pattern
 
-        Pattern pattern = Pattern.compile("\\w");
+        String s = "My string";
+        Pattern pattern = Pattern.compile(" ");
+        pattern.splitAsStream(s).forEach(System.out::println);
 
         System.out.println("\n");
         // BufferedReader - lines
