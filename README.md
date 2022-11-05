@@ -15,3 +15,5 @@
 ## 💻 Sobre o projeto
 
 ## 🚀 Executar o projeto
+
+## 🛠 Tecnologias
