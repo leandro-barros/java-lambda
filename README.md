@@ -17,3 +17,5 @@
 ## 🚀 Executar o projeto
 
 ## 🛠 Tecnologias
+
+## 👨‍💻 Autor
