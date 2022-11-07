@@ -19,3 +19,5 @@
 ## 🛠 Tecnologias
 
 ## 👨‍💻 Autor
+
+## 📝 Licença
