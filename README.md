@@ -21,3 +21,5 @@
 ## 👨‍💻 Autor
 
 ## 📝 Licença
+
+Projeto esta sobe a licença [MIT](./LICENSE).
