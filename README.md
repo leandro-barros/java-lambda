@@ -32,3 +32,5 @@
 ## 📝 Licença
 
 Projeto esta sobe a licença [MIT](./LICENSE).
+
+By Leandro Barros ❤️  [Entre em contato!](https://www.linkedin.com/in/leandroebarros/)
