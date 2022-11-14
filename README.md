@@ -18,6 +18,8 @@
 
 ## 🛠 Tecnologias
 
+As seguintes ferramentas foram utilizadas no desenvolvimento do projeto:
+
 ## 👨‍💻 Autor
 
 <a href="https://www.linkedin.com/in/leandroebarros/">
