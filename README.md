@@ -16,6 +16,8 @@
 
 ## 🚀 Executar o projeto
 
+Este repositório é um projeto utilizando a linguagem Java.
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
