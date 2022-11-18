@@ -18,6 +18,8 @@
 
 Este repositório é um projeto utilizando a linguagem Java.
 
+### Pré-requisitos
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
