@@ -20,6 +20,8 @@ Este repositório é um projeto utilizando a linguagem Java.
 
 ### Pré-requisitos
 
+Para executar o projeto precisa-se ter instalado em sua máquina somente o JDK do [Java](https://aws.amazon.com/pt/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc).
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
