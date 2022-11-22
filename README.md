@@ -22,6 +22,8 @@ Este repositório é um projeto utilizando a linguagem Java.
 
 Para executar o projeto precisa-se ter instalado em sua máquina somente o JDK do [Java](https://aws.amazon.com/pt/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc). Para clonar o projeto utilize o Git. Além disto é bom ter um editor para trabalhar com o código como Intellij para facilitar na execução dos exemplos.
 
+#### 🧭 Rodando o projeto
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
