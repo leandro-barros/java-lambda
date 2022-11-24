@@ -14,6 +14,8 @@
 
 ## 💻 Sobre o projeto
 
+Projeto criado para praticar conhecimentos teórico adquirido sobre lambda na linguagem Java.
+
 ## 🚀 Executar o projeto
 
 Este repositório é um projeto utilizando a linguagem Java.
