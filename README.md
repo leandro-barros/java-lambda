@@ -26,6 +26,12 @@ Para executar o projeto precisa-se ter instalado em sua máquina somente o JDK d
 
 #### 🧭 Rodando o projeto
 
+```bash
+# Clone este repositório
+$ git clone <https://github.com/leandro-barros/java-lambda.git>
+
+```
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
