@@ -30,6 +30,10 @@ Para executar o projeto precisa-se ter instalado em sua máquina somente o JDK d
 # Clone este repositório
 $ git clone <https://github.com/leandro-barros/java-lambda.git>
 
+# Na classe principal execute o projeto.
+
+# O servidor inciará na porta 8080
+
 ```
 
 ## 🛠 Tecnologias
